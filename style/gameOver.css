@@ -1,0 +1,41 @@
+.header__section {
+    background: url("../img/железный трон фон1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 40px;
+    font-weight: 400;
+    min-height: 100vh;
+}
+
+
+.btn--dark {
+    padding: 20px 100px;
+    border-radius: 10px;
+    background-color: #6C6F6A;
+    color: #fff;
+}
+
+.btn--yellow {
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #D8AD3C;
+    color: #fff; 
+}
+
+.btn:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #000;
+    color: #ffa000;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
