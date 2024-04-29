@@ -1,6 +1,8 @@
 const timer = document.querySelector("#timer")
 const url = window.location.href;
+console.log(url)
 const div = document.querySelector(".container");
+console.log(div)
 const id = getId(url);
 const timeToNext = 30000
 let leftToNext = timeToNext
@@ -37,6 +39,7 @@ init()
 
 
 function startGame() {
+    
     div.insertAdjacentHTML(`beforeend`,
     `
 <div class = "page__wrapper">
